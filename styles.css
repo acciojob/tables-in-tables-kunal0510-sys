@@ -1,2 +1,47 @@
 
 /* Your CSS Code here. */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.nested-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.nested-table th {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.nested-table td {
+    padding: 8px;
+}
+
+ul {
+    text-align: left;
+    padding-left: 20px;
+    margin: 0;
+}
+
+a {
+    text-decoration: underline;
+    color: purple;
+    font-weight: bold;
+}
+
+.black-cell {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
